@@ -1,2 +1,2 @@
-Acquisition Expansion Module
+Acquisition Module
 Documentation
