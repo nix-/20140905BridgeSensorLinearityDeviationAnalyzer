@@ -11,7 +11,8 @@
                                                         //                ______
 #define ADC_EXT_SCLK_HIGH   LPC_GPIO->SET = (0x1 << 8)  //SCLK high      |      |
 #define ADC_EXT_SCLK_LOW    LPC_GPIO->CLR = (0x1 << 8)  //SCLK low   ____|      |____sclk
-#define ADC_EXT_SCLK        LPC_GPIO->SET = (0x1 << 8); LPC_GPIO->CLR = (0x1 << 9)
+#define ADC_EXT_SCLK        LPC_GPIO->SET = (0x1 << 8); LPC_GPIO->CLR = (0x1 << 8)
+
 #define ADC_EXT_DATA        ((LPC_GPIO->PIN & 0x0200) >> 9)
 #define ADC_EXT_SCLK_STATE  ((LPC_GPIO->PIN & 0x0100) >> 8)
 
