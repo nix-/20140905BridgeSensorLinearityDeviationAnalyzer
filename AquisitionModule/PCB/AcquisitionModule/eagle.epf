@@ -7,7 +7,6 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="eka_logo.lbr"
 UsedLibrary="C:/#Projects/20140905BridgeSensorLinearityDeviationAnalyzer/AquisitionModule/PCB/Libraries/ADS1231.lbr"
 
 [Win_1]
